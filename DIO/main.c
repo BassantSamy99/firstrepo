@@ -14,7 +14,7 @@ int main(void)
 	while (1)
 	{
 		PORTA = 0b00000001;
-		for (int i = 0; i < 4; i++)
+		for (int i=0; i<4; i++)
 		{
 		PORTA <<= 1;
 		_delay_ms(1000);
